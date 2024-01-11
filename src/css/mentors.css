@@ -4,6 +4,26 @@
 
 .container-mentors {
     max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container-mentors {
+        padding-left: 32px;
+        padding-right: 32px;
+        max-width: 704px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .container-mentors {
+        max-width: 1240px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
 
 .header-mentors {
@@ -20,9 +40,22 @@
     margin-bottom: 40px;
 }
 
+
 .emphasis {
     color: #BEA69E;
 }
+
+
+@media only screen and (min-width: 768px) {
+    .header-mentors {
+
+        font-size: 48px;
+        line-height: 54px;
+        letter-spacing: -1.92px;
+        margin-bottom: 50px;
+    }
+}
+
 
 .ul-mentors {
     display: flex;
@@ -31,8 +64,32 @@
     gap: 40px;
 }
 
+@media only screen and (min-width: 768px) {
+    .ul-mentors {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+        gap: 93px 100px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .ul-mentors {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
 .li-mentors {
     width: auto;
+}
+
+@media only screen and (min-width: 1280px) {
+    .li-mentors {
+        min-width: 180px;
+    }
 }
 
 .div-mentors {
@@ -51,6 +108,14 @@
     /* 120% */
 }
 
+@media only screen and (min-width: 768px) {
+    .name-mentors {
+        font-size: 28px;
+        line-height: 32px;
+        /* 114.286% */
+    }
+}
+
 .experience-mentors {
     color: rgba(255, 255, 255, 0.50);
 
@@ -62,4 +127,13 @@
     line-height: 16px;
     /* 133.333% */
     letter-spacing: -0.24px;
+}
+
+@media only screen and (min-width: 768px) {
+    .experience-mentors {
+        font-size: 14px;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.28px;
+    }
 }

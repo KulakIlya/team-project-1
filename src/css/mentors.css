@@ -1,0 +1,65 @@
+@import url('./base.css');
+@import url('./reset.css');
+@import url('./header.css');
+
+.container-mentors {
+    max-width: 335px;
+}
+
+.header-mentors {
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 114.286% */
+    letter-spacing: -1.12px;
+
+    margin-bottom: 40px;
+}
+
+.emphasis {
+    color: #BEA69E;
+}
+
+.ul-mentors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.li-mentors {
+    width: auto;
+}
+
+.div-mentors {
+    padding-top: 16px;
+}
+
+.name-mentors {
+    color: #FFF;
+
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+}
+
+.experience-mentors {
+    color: rgba(255, 255, 255, 0.50);
+
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.333% */
+    letter-spacing: -0.24px;
+}

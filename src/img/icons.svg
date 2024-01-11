@@ -1,7 +1,7 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-arrow-right" viewBox="0 0 64 32">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M9.57556 3.96516L16.5722 3.74689L15.1423 10.5993L12.841 7.85676L3.26544 15.8916L2.30126 14.7425L11.8768 6.70769L9.57556 3.96516Z" />
+<symbol id="icon-arrow-right" viewBox="0 0 18 10">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 0.669876L18 5L12.5 9.33013V5.75L0 5.75L0 4.25L12.5 4.25V0.669876Z" />
 </symbol>
 <symbol id="icon-close" viewBox="0 0 32 32">
 <path d="M24 8L8 24" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -15,8 +15,8 @@
 <symbol id="icon-star-rating" viewBox="0 0 32 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" opacity="0.2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" stroke="#000" d="M16 3.2l3.955 7.899 8.845 1.274-6.4 6.145 1.51 8.681-7.91-4.101-7.91 4.101 1.51-8.681-6.4-6.145 8.845-1.274 3.955-7.899z"></path>
 </symbol>
-<symbol id="icon-star" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M16 2.667l4.12 8.347 9.213 1.347-6.667 6.493 1.573 9.173-8.24-4.333-8.24 4.333 1.573-9.173-6.667-6.493 9.213-1.347 4.12-8.347z"></path>
+<symbol id="icon-star" viewBox="0 0 20 20">
+<path d="M10.0001 1.66667L12.5751 6.88334L18.3334 7.72501L14.1667 11.7833L15.1501 17.5167L10.0001 14.8083L4.85008 17.5167L5.83341 11.7833L1.66675 7.72501L7.42508 6.88334L10.0001 1.66667Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </symbol>
 <symbol id="icon-arrow-right-top" viewBox="0 0 34 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" opacity="0.4" d="M16.127 6.678l11.784-0.368-2.408 11.541-3.876-4.619-16.127 13.532-1.624-1.935 16.127-13.532-3.876-4.619z"></path>

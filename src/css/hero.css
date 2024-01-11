@@ -1,0 +1,121 @@
+.hero {
+  padding-top: 20px;
+}
+
+.hero-wrapper {
+  padding: 40px 20px 0;
+
+  background-color: #1d1d1d;
+  border-radius: 30px;
+}
+
+.hero-title {
+  margin-bottom: 20px;
+
+  font-size: 40px;
+
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -1.6px;
+}
+
+.hero-title .accent {
+  color: #bea69e;
+  font-style: italic;
+}
+
+.hero-text {
+  margin-bottom: 40px;
+}
+
+.hero .reviews-box {
+  display: flex;
+  gap: 40px;
+  max-width: 253px;
+}
+
+.hero .students {
+  flex-basis: 109px;
+}
+.avatars {
+  height: 44px;
+  position: relative;
+}
+
+.avatars .item {
+  width: 44px;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.avatars .item-1 {
+  z-index: 4;
+}
+
+.avatars .item-2 {
+  left: 32px;
+  z-index: 3;
+}
+
+.avatars .item-3 {
+  left: 64px;
+  z-index: 2;
+}
+
+.avatars img {
+  border-radius: 100px;
+  border: 2px solid #1d1d1d;
+  display: block;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.hero-link {
+  display: inline-flex;
+  align-items: center;
+
+  margin-top: 4px;
+  gap: 4px;
+  letter-spacing: -0.56px;
+}
+
+.hero-link .icon-arrow {
+  fill: currentColor;
+}
+
+.hero .icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bea69e;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+}
+
+.reviews {
+  align-self: baseline;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hero .icon-star {
+  fill: transparent;
+}
+
+.hero p:first-child {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.hero p:last-child {
+  font-weight: 500;
+}
+
+.hero-img {
+  margin: 31px auto 0;
+}

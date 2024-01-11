@@ -1,13 +1,10 @@
-@import url('./base.css');
-@import url('./reset.css');
-@import url('./header.css');
-
 .container-mentors {
     max-width: 335px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 80px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -15,6 +12,7 @@
         padding-left: 32px;
         padding-right: 32px;
         max-width: 704px;
+        padding-bottom: 100px;
     }
 }
 
@@ -23,6 +21,7 @@
         max-width: 1240px;
         padding-left: 100px;
         padding-right: 100px;
+        padding-bottom: 150px;
     }
 }
 

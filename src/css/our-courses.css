@@ -3,17 +3,12 @@ ol {
     padding: 0;
 }
 
-.our-courses {
-    padding-bottom: 80px;
-}
-
-.our-courses .container {
-    padding: 0;
+.description-our-courses {
+    margin-bottom: 40px;
 }
 
 .our-courses-title {
     margin-bottom: 20px;
-
     font-size: 28px;
     font-weight: 500;
     font-style: normal;
@@ -23,7 +18,6 @@ ol {
 
 .our-courses-text {
     line-height: 1.29;
-    margin-bottom: 40px;
 }
 
 .courses-item {

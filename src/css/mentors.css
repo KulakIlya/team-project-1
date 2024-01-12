@@ -1,26 +1,15 @@
 .container-mentors {
-    max-width: 335px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-bottom: 80px;
 }
 
 @media only screen and (min-width: 768px) {
     .container-mentors {
-        padding-left: 32px;
-        padding-right: 32px;
-        max-width: 704px;
         padding-bottom: 100px;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .container-mentors {
-        max-width: 1240px;
-        padding-left: 100px;
-        padding-right: 100px;
         padding-bottom: 150px;
     }
 }
@@ -34,7 +23,6 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: -1.12px;
-
     margin-bottom: 40px;
 }
 

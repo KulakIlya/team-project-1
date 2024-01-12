@@ -1,4 +1,6 @@
 .advertisement-section-title {
+  text-align: center;
+
   display: flex;
   overflow: hidden;
 

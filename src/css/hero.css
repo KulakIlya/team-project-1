@@ -2,15 +2,15 @@
   padding-top: 20px;
 }
 
-.hero .container {
-  padding: 40px 20px 0;
-
+.hero-wrapper {
   background-color: #1d1d1d;
   border-radius: 30px;
+
+  padding: 40px 20px 0;
 }
 
 @media screen and (min-width: 768px) {
-  .hero .container {
+  .hero-wrapper {
     padding: 64px 32px 0;
   }
 }
@@ -52,8 +52,14 @@
 
 .hero .reviews-box {
   display: flex;
-  gap: 40px;
+  justify-content: space-between;
   max-width: 253px;
+}
+
+@media screen and (min-width: 375px) {
+  .hero .reviews-box {
+    gap: 40px;
+  }
 }
 
 @media screen and (min-width: 768px) {

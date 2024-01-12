@@ -24,6 +24,16 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .hero-wrapper {
+    display: flex;
+
+    justify-content: flex-start;
+    gap: 130px;
+    padding: 80px 50px 0;
+  }
+}
+
 .hero-title {
   margin-bottom: 20px;
 

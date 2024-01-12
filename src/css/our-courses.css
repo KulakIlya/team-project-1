@@ -17,12 +17,12 @@ ol {
     font-size: 28px;
     font-weight: 500;
     font-style: normal;
-    line-height: 32px;
+    line-height: 1.14;
     letter-spacing: -1.12px;
 }
 
 .our-courses-text {
-    line-height: 18px;
+    line-height: 1.29;
     margin-bottom: 40px;
 }
 
@@ -59,12 +59,12 @@ ol {
 .courses-item-title {
     font-size: 28px;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 1.14;
     max-width: 200px;
     margin-bottom: 164px;
 }
 
 .courses-item-text {
     color: rgba(255, 255, 255, 0.50);
-    line-height: 18px;
+    line-height: 1.29;
 }

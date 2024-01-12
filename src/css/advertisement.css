@@ -1,4 +1,4 @@
-.advertisement-title {
+.advertisement-section-title {
   display: flex;
   overflow: hidden;
 
@@ -9,7 +9,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement-title {
+  .advertisement-section-title {
     font-size: 40px;
 
     line-height: 1.25;
@@ -18,7 +18,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .advertisement-title {
+  .advertisement-section-title {
     font-size: 59px;
 
     line-height: 1.08;
@@ -26,7 +26,7 @@
   }
 }
 
-.advertisement-title .title-wrapper {
+.advertisement-section-title .title-wrapper {
   flex-shrink: 0;
   margin: 0;
 

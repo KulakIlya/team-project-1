@@ -1,0 +1,134 @@
+.container-mentors {
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container-mentors {
+        padding-left: 32px;
+        padding-right: 32px;
+        max-width: 704px;
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .container-mentors {
+        max-width: 1240px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 150px;
+    }
+}
+
+.header-mentors {
+    color: #FFF;
+
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -1.12px;
+
+    margin-bottom: 40px;
+}
+
+
+.emphasis {
+    color: #BEA69E;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .header-mentors {
+
+        font-size: 48px;
+        line-height: 54px;
+        letter-spacing: -1.92px;
+        margin-bottom: 50px;
+    }
+}
+
+
+.ul-mentors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .ul-mentors {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+        gap: 93px 100px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .ul-mentors {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+.li-mentors {
+    width: auto;
+}
+
+@media only screen and (min-width: 1280px) {
+    .li-mentors {
+        min-width: 180px;
+    }
+}
+
+.div-mentors {
+    padding-top: 16px;
+}
+
+.name-mentors {
+    color: #FFF;
+
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .name-mentors {
+        font-size: 28px;
+        line-height: 1.14;
+    }
+}
+
+.experience-mentors {
+    color: rgba(255, 255, 255, 0.50);
+
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    letter-spacing: -0.24px;
+}
+
+@media only screen and (min-width: 768px) {
+    .experience-mentors {
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.28px;
+    }
+}

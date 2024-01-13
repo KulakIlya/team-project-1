@@ -56,3 +56,18 @@ section {
 .title-span {
   color: #bea69e;
 }
+
+.cell {
+  background-image: url(../img/background-mob.png);
+}
+
+@media screen and (min-width: 768px) {
+  .cell {
+    background-image: url(../img/background-tab.png);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cell {
+    background-image: url(../img/background-desk.png);
+  }
+}

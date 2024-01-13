@@ -73,13 +73,12 @@
 }
 .links:hover {
   color: var(--brown, #bea69e);
-  
-  
+
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 
@@ -102,7 +101,7 @@
   line-height: 1.55;
   text-transform: uppercase;
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media only screen and (max-width: 767.98px) {
   .link-button {
@@ -128,7 +127,7 @@
 .link-button:hover {
   border-radius: 12px;
   background: #1d1d1d;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   cursor: pointer;
 
   color: var(--brown, #bea69e);

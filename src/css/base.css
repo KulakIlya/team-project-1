@@ -8,6 +8,10 @@ body {
   letter-spacing: -0.28px;
 }
 
+body.menu-is-opened {
+  overflow-y: hidden;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 20px;
@@ -52,4 +56,3 @@ section {
 .title-span {
   color: #bea69e;
 }
-

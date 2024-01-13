@@ -1,0 +1,49 @@
+/* Reviews styles */
+
+.review-card {
+  margin-top: 40px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.review-card-person {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.review-card-name {
+  margin-right: 10px;
+}
+.person-name {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.person-occupancy {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: -0.24px;
+  margin-top: 4px;
+}
+
+.stars-list {
+  display: flex;
+  gap: 4px;
+  margin-left: 86px;
+  margin-top: 4px;
+}
+
+.star-item:not(:last-child) {
+  fill: #bea69e;
+}
+.star-item:last-child {
+  fill: #414141;
+}
+
+.review-text {
+  padding: 20px;
+}

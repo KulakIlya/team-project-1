@@ -21,6 +21,13 @@
     line-height: 1.12;
     letter-spacing: -0.04em;
 }
+@media screen and (max-width: 767px) {
+    .sign-up {
+        width: 93px;
+        font-size: 28px;
+        line-height: 1.14;
+    }
+}
 .sign-up-text {
     width: 480px;
     margin-bottom: 40px;
@@ -29,6 +36,13 @@
     font-weight: 400;
     line-height: 1.25;
     letter-spacing: -0.02em;
+}
+@media screen and (max-width: 768px) {
+    .sign-up-text {
+        width: 295px;
+        font-style: 14px;
+        line-height: 1.28;
+    }
 }
 .sign-up-input {
     width: 480px;
@@ -40,6 +54,12 @@
     color: #FFF;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
+}
+@media screen and (max-width: 768px) {
+    .sign-up-input {
+        width: 335px;
+        height: 46px;
+    }
 }
 .sign-up-input::placeholder {
     font-size: 16px;
@@ -56,6 +76,12 @@
     color: #FFF;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
+}
+@media screen and (max-width: 768px) {
+    .sign-up-textarea {
+        width: 335px;
+        height: 112px;
+    }
 }
 .sign-up-textarea::placeholder {
     font-size: 16px;;
@@ -80,6 +106,13 @@
     line-height: 1.55;
     text-transform: uppercase;
 }
+@media screen and (max-width: 768px) {
+    .sign-up-btn {
+        width: 335px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
 .sign-up-text-down {
     width: 480px;
     height: 36px;
@@ -89,6 +122,14 @@
     font-weight: 400;
     line-height: 1.28;
 }
+@media screen and (max-width: 768px) {
+    .sign-up-text-down {
+        width: 335px;
+        font-style: 12px;
+        line-height: 1.33;
+    }
+} 
+
 .sign-up-privacy {
     text-decoration: underline;
 }

@@ -19,6 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     
     <script type="module" crossorigin src="/team-project-1/commonHelpers.js"></script>
@@ -28,7 +29,15 @@
   <body>
     <div class="cell">
       <!-- Розмітка хедера -->
-<header class="header">
+<header
+  class="header"
+  data-aos="fade-down"
+  data-aos-delay="50"
+  data-aos-offset="200"
+  data-aos-duration="1000"
+  data-aos-easing="ease-in-out"
+  data-aos-once="true"
+>
   <div class="container header-container">
     <div class="logo-links">
       <!-- logo -->
@@ -221,7 +230,7 @@
         <img
           data-aos="fade-up"
           data-aos-delay="50"
-          data-aos-offset="200"
+          data-aos-offset="0"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
           data-aos-once="true"
@@ -320,11 +329,18 @@
         </ol>
     </div>
 </section>
-    
-<section class="mentors" id="mentors-section">
+    <section class="mentors" id="mentors-section">
   <div class="container container-mentors">
     <h2 class="header-mentors">Our <span class="title-span">Mentors</span></h2>
-    <ul class="ul-mentors">
+    <ul
+      class="ul-mentors"
+      data-aos="fade-up"
+      data-aos-delay="50"
+      data-aos-offset="200"
+      data-aos-duration="500"
+      data-aos-easing="ease-in-out"
+      data-aos-once="true"
+    >
       <li class="li-mentors">
         <img
           srcset="/team-project-1/assets/mentors_img1@1x-306ee3bb.png 1x, /team-project-1/assets/mentors_img1@2x-4248b59d.png 2x"
@@ -402,20 +418,39 @@
         <div class="sign-up-entry-field">
           <label for="user-name" class="sign-up-label"></label>
 
-          <input class="sign-up-input" name="user-name" id="user-name" type="text" placeholder="Enter your name"
-            pattern="2-[AZ] - [A-Za-z]" required />
+          <input
+            class="sign-up-input"
+            name="user-name"
+            id="user-name"
+            type="text"
+            placeholder="Enter your name"
+            pattern="2-[AZ] - [A-Za-z]"
+            required
+          />
         </div>
 
         <div class="sign-up-entry-field">
           <label for="user-email" class="sign-up-label"></label>
 
-          <input class="sign-up-input" name="user-email" id="user-email" type="email" placeholder="Enter your email"
-            pattern="3-[A-Za-z] - \ d [0-9] - \ D [^ 0-9] " required />
+          <input
+            class="sign-up-input"
+            name="user-email"
+            id="user-email"
+            type="email"
+            placeholder="Enter your email"
+            pattern="3-[A-Za-z] - \ d [0-9] - \ D [^ 0-9] "
+            required
+          />
         </div>
 
         <div class="sign-up-entry-field">
           <label for="user-message" class="sign-up-label"></label>
-          <textarea class="sign-up-textarea" name="user-message" id="user-message" placeholder="Message"></textarea>
+          <textarea
+            class="sign-up-textarea"
+            name="user-message"
+            id="user-message"
+            placeholder="Message"
+          ></textarea>
         </div>
 
         <button class="sign-up-btn" type="submit">Send</button>
@@ -428,26 +463,73 @@
     </div>
     <!-- RIGHT-SIDE -->
     <div class="sign-up-right-side">
-      <div class="sign-up-img-left-box">
+      <div
+        class="sign-up-img-left-box"
+        data-aos="zoom-in-right"
+        data-aos-delay="50"
+        data-aos-offset="200"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
+      >
         <picture>
-          <source media="(min-width: 1440px)" srcset="/team-project-1/assets/isabella_mendes@1x-a9962610.png 1x, /team-project-1/assets/isabella_mendes@2x-fbde915c.png 2x" width="163" type="image/jpg" />
-          <source media="(min-width: 1280px)" srcset="/team-project-1/assets/isabella_mendes@1x-a9962610.png 1x, /team-project-1/assets/isabella_mendes@2x-fbde915c.png 2x" width="150" type="image/jpg" />
-          <img class="sign-up-img-left" src="/team-project-1/assets/isabella_mendes@1x-a9962610.png" alt="Camera" width="163" height="154" />
+          <source
+            media="(min-width: 1440px)"
+            srcset="/team-project-1/assets/isabella_mendes@1x-a9962610.png 1x, /team-project-1/assets/isabella_mendes@2x-fbde915c.png 2x"
+            width="163"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/team-project-1/assets/isabella_mendes@1x-a9962610.png 1x, /team-project-1/assets/isabella_mendes@2x-fbde915c.png 2x"
+            width="150"
+            type="image/jpg"
+          />
+          <img
+            class="sign-up-img-left"
+            src="/team-project-1/assets/isabella_mendes@1x-a9962610.png"
+            alt="Camera"
+            width="163"
+            height="154"
+          />
         </picture>
       </div>
 
-      <div class="sign-up-img-right-box">
+      <div
+        class="sign-up-img-right-box"
+        data-aos="zoom-in-left"
+        data-aos-delay="50"
+        data-aos-offset="200"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-once="true"
+      >
         <picture>
-          <source media="(min-width: 1440px)" srcset="/team-project-1/assets/video_entry@1x-f53a9bdb.png 1x, /team-project-1/assets/video_entry@2x-2c3422b2.png 2x"
-            width="254" type="image/jpg" />
-          <source media="(min-width: 1280px)" srcset="/team-project-1/assets/video_entry@1x-f53a9bdb.png 1x, /team-project-1/assets/video_entry@2x-2c3422b2.png 2x"
-            width="240" type="image/jpg" />
-          <img class="sign-up-img-right" src="/team-project-1/assets/video_entry@1x-f53a9bdb.png" alt="Camera" width="254" height="313" />
+          <source
+            media="(min-width: 1440px)"
+            srcset="/team-project-1/assets/video_entry@1x-f53a9bdb.png 1x, /team-project-1/assets/video_entry@2x-2c3422b2.png 2x"
+            width="254"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="/team-project-1/assets/video_entry@1x-f53a9bdb.png 1x, /team-project-1/assets/video_entry@2x-2c3422b2.png 2x"
+            width="240"
+            type="image/jpg"
+          />
+          <img
+            class="sign-up-img-right"
+            src="/team-project-1/assets/video_entry@1x-f53a9bdb.png"
+            alt="Camera"
+            width="254"
+            height="313"
+          />
         </picture>
       </div>
     </div>
   </div>
 </section>
+
     <section id="reviews-section">
   <div class="container">
     <h2 class="reviews">Reviews</h2>

@@ -4,6 +4,7 @@
 
 .hero-wrapper {
   background-color: #1d1d1d;
+
   border-radius: 30px;
 
   padding: 40px 20px 0;
@@ -63,8 +64,7 @@
   }
 }
 
-.hero-title .accent {
-  color: #bea69e;
+.hero-title .title-span {
   font-style: italic;
 }
 

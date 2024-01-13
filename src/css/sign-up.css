@@ -41,6 +41,12 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
 }
+@media screen and (max-width: 768px) {
+    .sign-up-input {
+        width: 335px;
+        height: 46px;
+    }
+}
 .sign-up-input::placeholder {
     font-size: 16px;
     font-weight: 400;
@@ -56,6 +62,12 @@
     color: #FFF;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
+}
+@media screen and (max-width: 768px) {
+    .sign-up-textarea {
+        width: 335px;
+        height: 112px;
+    }
 }
 .sign-up-textarea::placeholder {
     font-size: 16px;;

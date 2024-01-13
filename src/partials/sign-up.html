@@ -1,66 +1,118 @@
 <section class="sign-up-section">
-    <div class="container sign-up-container">
+  <div class="container sign-up-container">
     <!-- LEFT-SIDE -->
-      <div class="sign-up-left-side">
-        <h2 class="sign-up">Sign <span class="title-span">Up</span></h2>
-        <p class="sign-up-text">Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.</p>
+    <div class="sign-up-left-side">
+      <h2 class="sign-up">Sign <span class="title-span">Up</span></h2>
+      <p class="sign-up-text">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
 
-        <form action="" class="sign-up-form">
+      <form action="" class="sign-up-form">
+        <div class="sign-up-entry-field">
+          <label for="user-name" class="sign-up-label"></label>
 
-          <div class="sign-up-entry-field">
-            <label for="user-name" class="sign-up-label"></label>
-                <div class="sign-up-input-box">
-                    <input class="sign-up-input" name="user-name" id="user-name" type="text" placeholder="Enter your name" pattern="2-[AZ] - [A-Za-z]"  required />
-                </div>
-          </div>
-
-          <div class="sign-up-entry-field">
-            <label for="user-email" class="sign-up-label"></label>
-                <div class="sign-up-input-box">
-                    <input class="sign-up-input" name="user-email" id="user-email" type="email" placeholder="Enter your email" pattern="3-[A-Za-z] - \ d [0-9] - \ D [^ 0-9] "  required />
-                </div>
-          </div>
-
-          <div class="sign-up-entry-field">
-            <label for="user-message" class="sign-up-label"></label>
-                <div class="sign-up-input-box">
-                    <textarea class="sign-up-textarea" name="user-message" id="user-message" type="email" placeholder="Message"></textarea>
-                </div>
-          </div>
-          
-          <button class="sign-up-btn" type="submit">Send</button>
-          <p class="sign-up-text-down">By clicking on “Send” button, you agree to our <a class="sign-up-privacy" href="">Privacy Policy</a>, 
-            and allow Promodo to use this information for marketing purposes.</p>
-
-        </form>
-      </div>
-      <!-- RIGHT-SIDE -->
-      <div class="sign-up-right-side">
-        <div class="sign-up-img-left-box">
-            <picture>
-                <source media="(min-width: 1440px)" srcset="./img/isabella_mendes@1x.png 1x, ./img/isabella_mendes@2x.png 2x"  width="163" type="image/jpg" >
-                <source media="(min-width: 1280px)" srcset="./img/isabella_mendes@1x.png 1x, ./img/isabella_mendes@2x.png 2x" width="150" type="image/jpg">
-                    <img
-                        class="sign-up-img-left"
-                        src="./img/isabella_mendes.png"
-                        alt="Camera"
-                        width="163"
-                        height="154" />
-            </picture>
+          <input
+            class="sign-up-input"
+            name="user-name"
+            id="user-name"
+            type="text"
+            placeholder="Enter your name"
+            pattern="2-[AZ] - [A-Za-z]"
+            required
+          />
         </div>
 
-        <div class="sign-up-img-right-box">
-            <picture>
-                <source media="(min-width: 1440px)" srcset="./img/video_entry@1x.png 1x, ./img/video_entry@2x.png 2x"  width="254" type="image/jpg" >
-                <source media="(min-width: 1280px)" srcset="./img/video_entry@1x.png 1x, ./img/video_entry@2x.png 2x" width="240" type="image/jpg">
-                    <img
-                        class="sign-up-img-right"
-                        src="./img/video_entry@.png"
-                        alt="Camera"
-                        width="254"
-                        height="313" />
-            </picture>
-        </div>
-      </div>
+        <div class="sign-up-entry-field">
+          <label for="user-email" class="sign-up-label"></label>
 
+          <input
+            class="sign-up-input"
+            name="user-email"
+            id="user-email"
+            type="email"
+            placeholder="Enter your email"
+            pattern="3-[A-Za-z] - \ d [0-9] - \ D [^ 0-9] "
+            required
+          />
+        </div>
+
+        <div class="sign-up-entry-field">
+          <label for="user-message" class="sign-up-label"></label>
+          <div class="sign-up-input-box">
+            <textarea
+              class="sign-up-textarea"
+              name="user-message"
+              id="user-message"
+              type="email"
+              placeholder="Message"
+            ></textarea>
+          </div>
+        </div>
+
+        <button class="sign-up-btn" type="submit">Send</button>
+        <p class="sign-up-text-down">
+          By clicking on “Send” button, you agree to our
+          <a class="sign-up-privacy" href="">Privacy Policy</a>,<br />
+          and allow Promodo to use this information for marketing purposes.
+        </p>
+      </form>
     </div>
+    <!-- RIGHT-SIDE -->
+    <div class="sign-up-right-side">
+      <div class="sign-up-img-left-box">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              ./img/isabella_mendes@1x.png 1x,
+              ./img/isabella_mendes@2x.png 2x
+            "
+            width="163"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/isabella_mendes@1x.png 1x,
+              ./img/isabella_mendes@2x.png 2x
+            "
+            width="150"
+            type="image/jpg"
+          />
+          <img
+            class="sign-up-img-left"
+            src="./img/isabella_mendes.png"
+            alt="Camera"
+            width="163"
+            height="154"
+          />
+        </picture>
+      </div>
+
+      <div class="sign-up-img-right-box">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="./img/video_entry@1x.png 1x, ./img/video_entry@2x.png 2x"
+            width="254"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width: 1280px)"
+            srcset="./img/video_entry@1x.png 1x, ./img/video_entry@2x.png 2x"
+            width="240"
+            type="image/jpg"
+          />
+          <img
+            class="sign-up-img-right"
+            src="./img/video_entry@.png"
+            alt="Camera"
+            width="254"
+            height="313"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>

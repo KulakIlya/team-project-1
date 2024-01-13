@@ -1,7 +1,7 @@
 .about-us {
-   max-width: 335px;
-   margin: 0 auto;
-   padding: 0 0 80px;
+  max-width: 335px;
+  margin: 0 auto;
+  padding: 0 0 80px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -19,21 +19,21 @@
 }
 
 @media only screen and (min-width: 1440px) {
- .about-us {
+  .about-us {
     max-width: 1240px;
   }
 }
 
 .about-header {
-    font-family: DM Sans;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14em;
-    letter-spacing: -1.12px;
-    margin-bottom: 40px;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14em;
+  letter-spacing: -1.12px;
+  margin-bottom: 40px;
 }
 .about-span {
-color: #BEA69E;
+  color: #bea69e;
 }
 
 @media only screen and (min-width: 768px) {
@@ -46,35 +46,36 @@ color: #BEA69E;
 }
 
 .about-photo {
-    margin-bottom: 40px;
-    max-width: 100%;
+  flex-shrink: 0;
+  margin-bottom: 40px;
+  max-width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
-.about-photo {
+  .about-photo {
     margin-bottom: 50px;
   }
 }
 @media only screen and (min-width: 1280px) {
-.about-photo {
+  .about-photo {
     margin: 0;
     /*width: 488px;
     height: 260px;*/
   }
 }
 .about-p {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .about-text {
- font-weight: 400;
- font-size: 14px;
- line-height: 1.28em;
- letter-spacing: -0.28px;
- width: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28em;
+  letter-spacing: -0.28px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -100,15 +101,14 @@ color: #BEA69E;
     gap: 20px;
     padding: 0;
   }
-   .about-text {
-       width: calc((100% - 20px) / 2);
-   }
+  .about-text {
+    width: calc((100% - 20px) / 2);
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-    .about-desk {
+  .about-desk {
     display: flex;
     gap: 40px;
   }
 }
- 

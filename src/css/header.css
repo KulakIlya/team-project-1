@@ -4,11 +4,7 @@
   display: flex;
   margin-top: 20px;
 }
-@media screen and (min-width: 768px) {
-  .header-container {
-    max-width: 744px;
-  }
-}
+
 @media screen and (min-width: 1280px) {
   .header-container {
     max-width: 1120px;
@@ -98,7 +94,7 @@
   cursor: pointer;
 }
 
-.button {
+.link-button {
   display: flex;
   padding: 14px 62px;
   justify-content: center;
@@ -115,18 +111,18 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 155.556% */
+  line-height: 1.55;
   text-transform: uppercase;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media only screen and (max-width: 767.98px) {
-  .button {
+  .link-button {
     display: none;
   }
 }
 @media only screen and (min-width: 768px) {
-  .button {
+  .link-button {
     padding: 16px 58px;
     margin-left: 14px;
     width: 186px;
@@ -134,14 +130,14 @@
   }
 }
 @media only screen and (min-width: 1280px) {
-  .button {
+  .link-button {
     padding: 16px 84px;
     margin-left: 20px;
     width: 238px;
     height: 60px;
   }
 }
-.button:hover {
+.link-button:hover {
   border-radius: 12px;
   background: #1d1d1d;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -152,16 +148,12 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 155.556% */
+  line-height: 1.55;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 767.98px) {
-  .button:hover {
-    display: none;
-  }
-}
+
 @media only screen and (min-width: 768px) {
-  .button:hover {
+  .link-button:hover {
     padding: 16px 58px;
     width: 186px;
     height: 60px;
@@ -169,7 +161,7 @@
   }
 }
 @media only screen and (min-width: 1280px) {
-  .button:hover {
+  .link-button:hover {
     padding: 16px 84px;
     margin-left: 20px;
     width: 238px;

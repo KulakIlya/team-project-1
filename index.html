@@ -21,9 +21,49 @@
     />
 
     
-    <link rel="stylesheet" href="/team-project-1/assets/index-e643ab95.css">
+    <link rel="stylesheet" href="/team-project-1/assets/index-de3356fb.css">
   </head>
   <body>
+    <div class="mobile-menu">
+  <button class="mm-close-btn" type="button">
+    <svg class="close-icon" width="32" height="32">
+      <use href="../img/icons.svg#icon-close"></use>
+    </svg>
+  </button>
+
+  <ul class="mm-list">
+    <li class="mm-item">
+      <a class="mm-item-link is-active" href="">About us</a>
+    </li>
+    <li class="mm-item">
+      <a class="mm-item-link" href="">Our courses</a>
+    </li>
+    <li class="mm-item">
+      <a class="mm-item-link" href="">Our mentors</a>
+    </li>
+    <li class="mm-item">
+      <a class="mm-item-link" href="">Reviews</a>
+    </li>
+    <li class="mm-item">
+      <a class="mm-item-link" href="">Contacts</a>
+    </li>
+  </ul>
+
+  <div class="mm-bottom">
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="/team-project-1/assets/menu_photo_tab@1x-61b2432f.jpg 1x, /team-project-1/assets/menu_photo_tab@2x-14606af8.jpg 2x"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="/team-project-1/assets/menu_photo_mob@1x-05dd933c.png 1x, /team-project-1/assets/menu_photo_mob@2x-2f0e12a9.png 2x"
+      />
+      <img src="../img/menu_photo_mob@1x.png" alt="Camera" class="camera" />
+    </picture>
+  </div>
+</div>
+
     <section class="hero">
   <div class="container">
     <div class="hero-wrapper">

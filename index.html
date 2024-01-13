@@ -21,18 +21,17 @@
     />
 
     
-    <link rel="stylesheet" href="/team-project-1/assets/index-9c5edd85.css">
+    <link rel="stylesheet" href="/team-project-1/assets/index-94a91892.css">
   </head>
 
   <body>
-
     <!-- Розмітка хедера -->
 <header class="header">
   <div class="container header-container">
     <div class="logo-links">
       <!-- logo -->
       <a class="link-logo" href="./index.html">
-        <svg class="logo">
+        <svg class="logo" width="127" height="20">
           <use href="/team-project-1/assets/icons-0ba30bd7.svg#icon-logo" width="123" height="16"></use>
         </svg>
       </a>
@@ -68,43 +67,45 @@
   </div>
 </header>
 
-    <div class="mobile-menu">
-  <button class="mm-close-btn" type="button">
-    <svg class="close-icon" width="32" height="32">
-      <use href="/team-project-1/assets/icons-0ba30bd7.svg#icon-close"></use>
-    </svg>
-  </button>
+    <div class="overlay is-hidden">
+  <div class="mobile-menu">
+    <button class="mm-close-btn" type="button">
+      <svg class="close-icon" width="32" height="32">
+        <use href="/team-project-1/assets/icons-0ba30bd7.svg#icon-close"></use>
+      </svg>
+    </button>
 
-  <ul class="mm-list">
-    <li class="mm-item">
-      <a class="mm-item-link is-active" href="">About us</a>
-    </li>
-    <li class="mm-item">
-      <a class="mm-item-link" href="">Our courses</a>
-    </li>
-    <li class="mm-item">
-      <a class="mm-item-link" href="">Our mentors</a>
-    </li>
-    <li class="mm-item">
-      <a class="mm-item-link" href="">Reviews</a>
-    </li>
-    <li class="mm-item">
-      <a class="mm-item-link" href="">Contacts</a>
-    </li>
-  </ul>
+    <ul class="mm-list">
+      <li class="mm-item">
+        <a class="mm-item-link is-active" href="">About us</a>
+      </li>
+      <li class="mm-item">
+        <a class="mm-item-link" href="">Our courses</a>
+      </li>
+      <li class="mm-item">
+        <a class="mm-item-link" href="">Our mentors</a>
+      </li>
+      <li class="mm-item">
+        <a class="mm-item-link" href="">Reviews</a>
+      </li>
+      <li class="mm-item">
+        <a class="mm-item-link" href="">Contacts</a>
+      </li>
+    </ul>
 
-  <div class="mm-bottom">
-    <picture>
-      <source
-        media="(min-width: 768px)"
-        srcset="/team-project-1/assets/menu_photo_tab@1x-61b2432f.jpg 1x, /team-project-1/assets/menu_photo_tab@2x-14606af8.jpg 2x"
-      />
-      <source
-        media="(max-width: 767px)"
-        srcset="/team-project-1/assets/menu_photo_mob@1x-05dd933c.png 1x, /team-project-1/assets/menu_photo_mob@2x-2f0e12a9.png 2x"
-      />
-      <img src="/team-project-1/assets/menu_photo_mob@1x-05dd933c.png" alt="Camera" class="camera" />
-    </picture>
+    <div class="mm-bottom">
+      <picture>
+        <source
+          media="(min-width: 768px)"
+          srcset="/team-project-1/assets/menu_photo_tab@1x-61b2432f.jpg 1x, /team-project-1/assets/menu_photo_tab@2x-14606af8.jpg 2x"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/team-project-1/assets/menu_photo_mob@1x-05dd933c.png 1x, /team-project-1/assets/menu_photo_mob@2x-2f0e12a9.png 2x"
+        />
+        <img src="/team-project-1/assets/menu_photo_mob@1x-05dd933c.png" alt="Camera" class="camera" />
+      </picture>
+    </div>
   </div>
 </div>
 
@@ -390,7 +391,7 @@
     <!-- LEFT-SIDE -->
     <div class="sign-up-left-side">
       <h2 class="sign-up">Sign <span class="title-span">Up</span></h2>
-           <p class="sign-up-text">
+      <p class="sign-up-text">
         Please use the form below to contact us. Enter your name, email, and
         message and we'll get back to you shortly.
       </p>
@@ -426,14 +427,12 @@
 
         <div class="sign-up-entry-field">
           <label for="user-message" class="sign-up-label"></label>
-          <div class="sign-up-input-box">
-            <textarea
-              class="sign-up-textarea"
-              name="user-message"
-              id="user-message"
-              placeholder="Message"
-            ></textarea>
-          </div>
+          <textarea
+            class="sign-up-textarea"
+            name="user-message"
+            id="user-message"
+            placeholder="Message"
+          ></textarea>
         </div>
 
         <button class="sign-up-btn" type="submit">Send</button>
@@ -441,15 +440,14 @@
           By clicking on “Send” button, you agree to our
           <a class="sign-up-privacy" href="">Privacy Policy</a>,<br />
           and allow Promodo to use this information for marketing purposes.
-        </p> 
-
+        </p>
       </form>
     </div>
     <!-- RIGHT-SIDE -->
     <div class="sign-up-right-side">
       <div class="sign-up-img-left-box">
         <picture>
-<source
+          <source
             media="(min-width: 1440px)"
             srcset="/team-project-1/assets/isabella_mendes@1x-a9962610.png 1x, /team-project-1/assets/isabella_mendes@2x-fbde915c.png 2x"
             width="163"
@@ -473,7 +471,7 @@
 
       <div class="sign-up-img-right-box">
         <picture>
-           <source
+          <source
             media="(min-width: 1440px)"
             srcset="/team-project-1/assets/video_entry@1x-f53a9bdb.png 1x, /team-project-1/assets/video_entry@2x-2c3422b2.png 2x"
             width="254"
@@ -553,5 +551,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="./main.js"></script>
   </body>
 </html>

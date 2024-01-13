@@ -1,16 +1,3 @@
-.sign-up-section {
-    padding-bottom: 150px;
-}
-@media screen and (max-width: 375px) {
-    .sign-up-section {
-        padding-bottom: 80px;
-    }
-}
-@media screen and (max-width: 768px) {
-    .sign-up-section {
-        padding-bottom: 100px;
-    }
-}
 .sign-up-container {
     display: flex;
     align-items: center;

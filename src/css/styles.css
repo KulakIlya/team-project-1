@@ -1,5 +1,11 @@
 @import url('./base.css');
 @import url('./reset.css');
 @import url('./header.css');
+@import url('./mobile-menu.css');
 @import url('./hero.css');
+<<<<<<< HEAD
 @import url('./mentors.css');
+=======
+@import url('./advertisement.css');
+@import url('./our-courses.css');
+>>>>>>> b7964c51a4d56856dfa868cfe43098ad935e070c

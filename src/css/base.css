@@ -8,6 +8,10 @@ body {
   letter-spacing: -0.28px;
 }
 
+body.menu-is-opened {
+  overflow-y: hidden;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 20px;
@@ -53,3 +57,17 @@ section {
   color: #bea69e;
 }
 
+.cell {
+  background-image: url(../img/background-mob.png);
+}
+
+@media screen and (min-width: 768px) {
+  .cell {
+    background-image: url(../img/background-tab.png);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cell {
+    background-image: url(../img/background-desk.png);
+  }
+}

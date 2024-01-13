@@ -3,6 +3,10 @@ ol {
     padding: 0;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 @media screen and (min-width: 768px) {
     .our-courses .container {        
         padding: 0 32px;
@@ -121,6 +125,26 @@ ol {
     width: 32px;
     height: 32px;
     border-radius: 50%;
+
+    transition: background-color 250ms ease-in-out;
+}
+
+.sing-up-link use {
+    opacity: 0.4;
+
+    transition: opacity 250ms ease-in-out;
+}
+
+.sing-up-link:hover,
+.sing-up-link:active,
+.sing-up-link:focus {
+    background-color: #BEA69E;
+}
+
+.sing-up-link:hover use,
+.sing-up-link:active use,
+.sing-up-link:focus use {
+    opacity: 1;
 }
 
 .number {

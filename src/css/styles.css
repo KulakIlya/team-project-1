@@ -5,12 +5,6 @@
 @import url('./hero.css');
 @import url('./advertisement.css');
 @import url('./our-courses.css');
-<<<<<<< HEAD
-@import url('./reviews.css');
-=======
 @import url('./mentors.css');
 @import url('./sign-up.css');
-
-
-
->>>>>>> d5caa3e5691d672aa526c13eadd694a229bb853a
+@import url('./reviews.css');

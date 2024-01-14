@@ -4,6 +4,10 @@
   justify-content: space-between;
 }
 
+.sign-up-left-side {
+  width: 480px;
+}
+
 .sign-up {
   width: 159px;
   margin-bottom: 20px;
@@ -22,7 +26,7 @@
   }
 }
 .sign-up-text {
-  max-width: 480px;
+  max-width: 100%;
   margin-bottom: 40px;
 
   font-size: 16px;
@@ -30,7 +34,7 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .sign-up-text {
     max-width: 295px;
     font-size: 14px;
@@ -39,19 +43,24 @@
 }
 .sign-up-input {
   width: 100%;
-  max-width: 480px;
   height: 60px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 18px;
+  padding: 20px 18px;
   margin-bottom: 14px;
 
   background-color: #121212;
   color: #fff;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+
+  transition: outline 150ms ease-in-out;
+  outline: transparent;
 }
-@media screen and (max-width: 768px) {
+
+.sign-up-input:focus-within {
+  outline: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 767px) {
   .sign-up-input {
     max-width: 335px;
     height: 46px;
@@ -74,6 +83,8 @@
   color: #fff;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+
+  resize: none;
 }
 @media screen and (max-width: 768px) {
   .sign-up-textarea {
@@ -104,7 +115,16 @@
   font-weight: 700;
   line-height: 1.55;
   text-transform: uppercase;
+
+  transition: all 250ms ease-in-out;
 }
+
+.sign-up-btn:hover,
+.sign-up-btn:focus {
+  color: #bea69e;
+  background-color: #1d1d1d;
+}
+
 @media screen and (max-width: 768px) {
   .sign-up-btn {
     font-size: 16px;
@@ -148,8 +168,6 @@
   min-width: 190px;
   height: 288px;
   padding: 75px 18px 62px 0px;
-  margin-top: 252px;
-  transition: transform 250ms ease-in-out;
 }
 @media screen and (min-width: 1280px) {
   .sign-up-img-left-box {
@@ -157,7 +175,16 @@
     height: 288px;
   }
 }
-.sign-up-img-left-box:hover {
+
+.sign-up-wrapper {
+  display: inline-block;
+  transition: transform 250ms ease-in-out;
+}
+
+.sign-up-wrapper:first-of-type {
+  margin-top: 252px;
+}
+.sign-up-wrapper:hover {
   transform: scale(1.1);
 }
 

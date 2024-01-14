@@ -51,6 +51,18 @@
   background-image: url('../img/background-mob.png');
 }
 
+@media screen and (min-width: 768px) {
+  .footer-class {
+    background-image: url('../img/background-tab.png');
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-class {
+    background-image: url('../img/background-desk.png');
+  }
+}
+
 .logo-svg {
   fill: #fff;
   width: 127px;

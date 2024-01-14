@@ -1,12 +1,58 @@
+.footer-class {
+  padding: 40px 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767.98px) {
+  .footer-class {
+    text-align: center;
+  }
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .logo-svg {
   fill: #fff;
+  width: 127px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-svg {
+    width: 123px;
+    height: 16px;
+    margin-bottom: 25px;
+  }
 }
 
 .footer-address {
   display: inline-flex;
+  height: 46px;
   flex-direction: column;
+  justify-content: space-between;
   align-items: flex-start;
+  flex-shrink: 0;
+  margin-bottom: 40px;
   gap: 10px;
+}
+
+.adress-menu {
+  display: inline-flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-address {
+    margin-right: 57px;
+  }
 }
 
 .contacts-footer {
@@ -15,14 +61,22 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   text-transform: uppercase;
 }
 
 .footer-socials-div {
   display: inline-flex;
   align-items: flex-start;
-  gap: 100px;
+  gap: 40px;
+  margin-bottom: 75px;
+}
+
+.socials-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
 }
 
 .footer-links {
@@ -35,7 +89,83 @@
   text-transform: uppercase;
 }
 
+.form-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .subscribe-btn {
   border-radius: 12px;
+  background: #1d1d1d;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  border: none;
+}
+
+.subscribe-form {
+  margin-bottom: 40px;
+  display: flex;
+  gap: 8px;
+}
+
+.subscribe-input {
+  width: 249px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 12px;
   background: #fff;
+  color: #121212;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 18px;
+  border: none;
+  opacity: 0.7;
+}
+
+.subscribe-label {
+  width: 100%;
+}
+
+.privacy-rights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.privacy-style {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.privacy-div {
+  width: 147px;
+}
+
+.rights-style {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.rights-div {
+  width: 116px;
 }

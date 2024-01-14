@@ -4,30 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Page Title</title>
-    <link rel="stylesheet" href="src/css/footer.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
-    <!-- Заголовок страницы -->
-    <header>
-        <h1>Manhattan</h1>
-    </header>
-
-    <!-- Основное содержание страницы -->
-    <main>
-        <p>Content</p>
-    </main>
-
-    <!-- Подвал (Footer) -->
+    <!-- Footer -->
     
-    <footer>
-  <div class="container">
-    <svg class="logo-svg" width="127" height="20">
-      <use href="./img/icons.svg#icon-logo"></use>
-    </svg>
+    <footer class="footer-class">
+     <div class="container footer-container">
+     <svg class="logo-svg" width="127" height="20">
+      <use href="../img/icons.svg#icon-logo"></use>
+     </svg>
     <!---Adresses-->
     <address class="footer-address">
-      <ul>
+      <ul class="adress-menu">
         <li>
           <a class="contacts-footer" href="">UA: +38 066 543 8912</a>
         </li>
@@ -38,7 +28,7 @@
     </address>
     <!---Social links-->
     <div class="footer-socials-div">
-      <ul>
+      <ul class="socials-menu">
         <li class="socials-item">
           <a class="footer-links" href="">Instagram</a>
         </li>
@@ -52,7 +42,7 @@
    
     <!---Project links-->
     
-      <ul>
+      <ul class="socials-menu">
         <li class="links-item">
           <a class="footer-links" href="">About us</a>
         </li>
@@ -71,7 +61,7 @@
       </ul>
     </div>
     <!---Subscribe button-->
-    <div>
+    <div class="form-div">
         <form class="subscribe-form">
             <label class="subscribe-label">
               <input
@@ -81,14 +71,18 @@
                 placeholder="Enter your email"
               />
             </label>
-            <button class="git status" type="submit">Go</button>
+            <button class="subscribe-btn" type="submit">Go</button>
     </div>
     <!---Privacy Rights-->
     <div class="privacy-rights">
+      <div class="privacy-div">
         <p class="privacy-style">Privacy Policy 
             Public Offering Agreement</p>
+          </div>
+            <div class="rights-div">
             <p class="rights-style">2023 Focus Frame
                 © All rights reserved</p>
+              </div>
     </div>
   </div>
 </footer>

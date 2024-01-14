@@ -167,13 +167,17 @@
   background: #bea69e;
   min-width: 190px;
   height: 288px;
-  padding: 75px 18px 62px 0px;
+  padding: 75px 18px 62px 0;
 }
 @media screen and (min-width: 1280px) {
   .sign-up-img-left-box {
     width: 180px;
     height: 288px;
   }
+}
+
+.sign-up-img-left {
+  margin-left: -15px;
 }
 
 .sign-up-wrapper {

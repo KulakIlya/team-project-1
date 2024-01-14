@@ -1,7 +1,7 @@
 .about-header {
   font-size: 28px;
   font-weight: 500;
-  line-height: 0.875;
+  line-height: 1.14;
   letter-spacing: -1.12px;
   margin-bottom: 40px;
 }
@@ -12,7 +12,7 @@
 @media only screen and (min-width: 768px) {
   .about-header {
     font-size: 48px;
-    line-height: 0.888;
+    line-height: 1.12;
     letter-spacing: -1.92px;
     margin-bottom: 50px;
   }
@@ -44,7 +44,7 @@
 .about-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 0.777;
+  line-height: 1.29;
   letter-spacing: -0.28px;
   width: 100%;
 }
@@ -52,7 +52,7 @@
 @media only screen and (min-width: 768px) {
   .about-text {
     font-size: 16px;
-    line-height: 0.8;
+    line-height: 1.25;
     letter-spacing: -0.32px;
   }
 }

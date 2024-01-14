@@ -39,7 +39,12 @@
   align-items: flex-start;
   flex-shrink: 0;
   margin-bottom: 40px;
-  gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-address {
+    gap: 10px;
+  }
 }
 
 .adress-menu {
@@ -48,12 +53,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-}
-
-@media screen and (min-width: 768px) {
-  .footer-address {
-    margin-right: 57px;
-  }
 }
 
 .contacts-footer {
@@ -73,11 +72,35 @@
   margin-bottom: 75px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-socials-div {
+    gap: 25px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-socials-div {
+    gap: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-socials-div {
+    gap: 100px;
+  }
+}
+
 .socials-menu {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 14px;
+}
+
+@media screen and (min-width: 1280px) {
+  .socials-menu {
+    gap: 20px;
+  }
 }
 
 .footer-links {
@@ -94,6 +117,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 8px;
+}
+
+@media screen and (min-width: 1280px) {
+  .form-div {
+    gap: 16px;
+  }
 }
 
 .subscribe-btn {
@@ -135,6 +165,18 @@
   opacity: 0.7;
 }
 
+@media screen and (min-width: 768px) {
+  .subscribe-input {
+    width: 160px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .subscribe-input {
+    width: 198px;
+  }
+}
+
 .subscribe-label {
   width: 100%;
 }
@@ -145,20 +187,17 @@
   align-items: center;
 }
 
-.privacy-style {
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-}
-
 .privacy-div {
   width: 147px;
 }
 
-.rights-style {
+@media screen and (min-width: 768px) {
+  .privacy-div {
+    width: 171px;
+  }
+}
+
+.privacy-rights-style {
   color: #fff;
   font-family: DM Sans;
   font-size: 12px;
@@ -167,6 +206,19 @@
   line-height: 16px;
 }
 
+@media screen and (min-width: 768px) {
+  .privacy-rights-style {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
 .rights-div {
   width: 116px;
+}
+
+@media screen and (min-width: 768px) {
+  .rights-div {
+    width: 134px;
+  }
 }

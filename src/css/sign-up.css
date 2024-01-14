@@ -50,7 +50,15 @@
   color: #fff;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+
+  transition: outline 150ms ease-in-out;
+  outline: transparent;
 }
+
+.sign-up-input:focus-within {
+  outline: 1px solid rgba(255, 255, 255, 0.5);
+}
+
 @media screen and (max-width: 768px) {
   .sign-up-input {
     max-width: 335px;
@@ -74,6 +82,8 @@
   color: #fff;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+
+  resize: none;
 }
 @media screen and (max-width: 768px) {
   .sign-up-textarea {
@@ -104,7 +114,16 @@
   font-weight: 700;
   line-height: 1.55;
   text-transform: uppercase;
+
+  transition: all 250ms ease-in-out;
 }
+
+.sign-up-btn:hover,
+.sign-up-btn:focus {
+  color: #bea69e;
+  background-color: #1d1d1d;
+}
+
 @media screen and (max-width: 768px) {
   .sign-up-btn {
     font-size: 16px;

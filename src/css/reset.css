@@ -19,12 +19,19 @@ ul {
   list-style: none;
 }
 
+ol {
+  list-style: none;
+  padding: 0;
+}
+
 a {
   color: currentColor;
   text-decoration: none;
 }
 
 button {
+  padding: 0;
+  border: none;
   cursor: pointer;
 }
 

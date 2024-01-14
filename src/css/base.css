@@ -1,3 +1,8 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
   color: #ffffff;
@@ -6,6 +11,10 @@ body {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.28px;
+}
+
+body.menu-is-opened {
+  overflow-y: hidden;
 }
 
 .container {
@@ -53,3 +62,17 @@ section {
   color: #bea69e;
 }
 
+.cell {
+  background-image: url(../img/background-mob.png);
+}
+
+@media screen and (min-width: 768px) {
+  .cell {
+    background-image: url(../img/background-tab.png);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .cell {
+    background-image: url(../img/background-desk.png);
+  }
+}

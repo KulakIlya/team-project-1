@@ -1,6 +1,7 @@
 .footer-class {
   padding: 40px 0 20px;
   margin: 0 auto;
+  background-image: url('../img/background-mob.png');
 }
 
 @media screen and (max-width: 767.98px) {

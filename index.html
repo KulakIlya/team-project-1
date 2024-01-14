@@ -23,7 +23,7 @@
 
     
     <script type="module" crossorigin src="/team-project-1/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/team-project-1/assets/index-f1c03101.css">
+    <link rel="stylesheet" href="/team-project-1/assets/index-e5ceffeb.css">
   </head>
 
   <body>
@@ -87,7 +87,7 @@
 
     <ul class="mm-list">
       <li class="mm-item">
-        <a class="mm-item-link is-active" href="#about-us">About us</a>
+        <a class="mm-item-link is-active" href="#about-us-section">About us</a>
       </li>
       <li class="mm-item">
         <a class="mm-item-link" href="#our-courses-section">Our courses</a>
@@ -99,7 +99,7 @@
         <a class="mm-item-link" href="#reviews-section">Reviews</a>
       </li>
       <li class="mm-item">
-        <a class="mm-item-link" href="#contacts">Contacts</a>
+        <a class="mm-item-link" href="#contacts-section">Contacts</a>
       </li>
     </ul>
 
@@ -227,10 +227,12 @@
         <source
           media="(min-width: 1280px)"
           srcset="/team-project-1/assets/hero_des@1x-a4a9b343.png 1x, /team-project-1/assets/hero_des@2x-cbcd0a20.png 2x"
+          type="image/png"
         />
         <source
           media="(min-width: 768px)"
           srcset="/team-project-1/assets/hero_tab@1x-dcd9b991.png 1x, /team-project-1/assets/hero_tab@2x-cab854a7.png 2x"
+          type="image/png"
         />
 
         <img
@@ -244,6 +246,7 @@
           class="hero-img"
           srcset="/team-project-1/assets/hero_mob@1x-111a286f.png 1x, /team-project-1/assets/hero_mob@2x-0fe71db8.png 2x"
           alt="Photo of photographer"
+          loading="lazy"
         />
       </picture>
     </div>
@@ -280,22 +283,26 @@
         <source
           media="(min-width: 1440px)"
           srcset="/team-project-1/assets/photo_des_@1x-81c49646.png 1x, /team-project-1/assets/photo_des_@2x-60868a50.png 2x"
+          type="image/png"
         />
         <source
           media="(min-width: 1280px)"
           srcset="/team-project-1/assets/photo_des@1x-db08e27a.png 1x, /team-project-1/assets/photo_des@2x-27d829a3.png 2x"
+          type="image/png"
         />
         <!--Tablet-->
         <source
           media="(min-width: 768px)"
           srcset="/team-project-1/assets/photo_tab@1x-a27e9f89.png 1x, /team-project-1/assets/photo_tab@2x-99f717c0.png 2x"
+          type="image/png"
         />
         <!--Mobile-->
         <img
           srcset="/team-project-1/assets/photo_mob@1x-7e56e139.png 1x, /team-project-1/assets/photo_mob@2x-ee686349.png 2x"
           src="/team-project-1/assets/photo_mob@1x-7e56e139.png"
-          alt="photocamera"
+          alt="photo camera"
           class="about-photo"
+          loading="lazy"
         />
       </picture>
       <div class="about-p">
@@ -387,11 +394,24 @@
     <section class="mentors" id="mentors-section">
   <div class="container container-mentors">
     <h2 class="header-mentors">Our <span class="title-span">Mentors</span></h2>
-    <ul class="ul-mentors" data-aos="fade-up" data-aos-delay="50" data-aos-offset="200" data-aos-duration="1000"
-      data-aos-easing="ease-in-out" data-aos-once="true">
+    <ul
+      class="ul-mentors"
+      data-aos="fade-up"
+      data-aos-delay="50"
+      data-aos-offset="200"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      data-aos-once="true"
+    >
       <li class="li-mentors">
-        <img srcset="/team-project-1/assets/mentors_img1@1x-306ee3bb.png 1x, /team-project-1/assets/mentors_img1@2x-4248b59d.png 2x" src="/team-project-1/assets/mentors_img1@1x-306ee3bb.png"
-          alt="photo Emilia Smith" width="180" height="180" loading="lazy" />
+        <img
+          srcset="/team-project-1/assets/mentors_img1@1x-306ee3bb.png 1x, /team-project-1/assets/mentors_img1@2x-4248b59d.png 2x"
+          src="/team-project-1/assets/mentors_img1@1x-306ee3bb.png"
+          alt="photo Emilia Smith"
+          width="180"
+          height="180"
+          loading="lazy"
+        />
         <div class="div-mentors">
           <h3 class="name-mentors">Emilia Smith</h3>
           <p class="experience-mentors">1.5 years of experience</p>
@@ -399,16 +419,28 @@
       </li>
 
       <li class="li-mentors">
-        <img srcset="/team-project-1/assets/mentors_img2@1x-c70b16df.png 1x, /team-project-1/assets/mentors_img2@2x-933bbf8a.png 2x" src="/team-project-1/assets/mentors_img2@1x-c70b16df.png"
-          alt="photo of Alex Lebedev" width="180" height="180" loading="lazy" />
+        <img
+          srcset="/team-project-1/assets/mentors_img2@1x-c70b16df.png 1x, /team-project-1/assets/mentors_img2@2x-933bbf8a.png 2x"
+          src="/team-project-1/assets/mentors_img2@1x-c70b16df.png"
+          alt="photo of Alex Lebedev"
+          width="180"
+          height="180"
+          loading="lazy"
+        />
         <div class="div-mentors">
           <h3 class="name-mentors">Alex Lebedev</h3>
           <p class="experience-mentors">3.5 years of experience</p>
         </div>
       </li>
       <li class="li-mentors">
-        <img srcset="/team-project-1/assets/mentors_img3@1x-275df03c.png 1x, /team-project-1/assets/mentors_img3@2x-45059bc4.png 2x" src="/team-project-1/assets/mentors_img3@1x-275df03c.png"
-          alt="photo of Mia Dubrovska" width="180" height="180" loading="lazy" />
+        <img
+          srcset="/team-project-1/assets/mentors_img3@1x-275df03c.png 1x, /team-project-1/assets/mentors_img3@2x-45059bc4.png 2x"
+          src="/team-project-1/assets/mentors_img3@1x-275df03c.png"
+          alt="photo of Mia Dubrovska"
+          width="180"
+          height="180"
+          loading="lazy"
+        />
         <div class="div-mentors">
           <h3 class="name-mentors">Mia Dubrovska</h3>
           <p class="experience-mentors">2.0 years of experience</p>
@@ -416,8 +448,15 @@
       </li>
 
       <li class="li-mentors">
-        <img class="img-mentors" srcset="/team-project-1/assets/mentors_img4@1x-d76193a2.png 1x, /team-project-1/assets/mentors_img4@2x-2ac1bbba.png 2x"
-          src="/team-project-1/assets/mentors_img4@1x-d76193a2.png" alt="photo of Eliot Kovalev" width="180" height="180" loading="lazy" />
+        <img
+          class="img-mentors"
+          srcset="/team-project-1/assets/mentors_img4@1x-d76193a2.png 1x, /team-project-1/assets/mentors_img4@2x-2ac1bbba.png 2x"
+          src="/team-project-1/assets/mentors_img4@1x-d76193a2.png"
+          alt="photo of Eliot Kovalev"
+          width="180"
+          height="180"
+          loading="lazy"
+        />
         <div class="div-mentors">
           <h3 class="name-mentors">Eliot Kovalev</h3>
           <p class="experience-mentors">4.0 years of experience</p>
@@ -426,6 +465,7 @@
     </ul>
   </div>
 </section>
+
     <section class="sign-up-section" id="sign-up-section">
   <div class="container sign-up-container">
     <!-- LEFT-SIDE -->
@@ -491,23 +531,16 @@
         >
           <picture>
             <source
-              media="(min-width: 1440px)"
-              srcset="/team-project-1/assets/isabella_mendes@1x-a9962610.png 1x, /team-project-1/assets/isabella_mendes@2x-fbde915c.png 2x"
-              width="163"
-              type="image/jpg"
-            />
-            <source
               media="(min-width: 1280px)"
               srcset="/team-project-1/assets/isabella_mendes@1x-a9962610.png 1x, /team-project-1/assets/isabella_mendes@2x-fbde915c.png 2x"
-              width="150"
-              type="image/jpg"
+              type="image/png"
             />
+
             <img
-              class="sign-up-img-left"
               src="/team-project-1/assets/isabella_mendes@1x-a9962610.png"
-              alt="Camera"
-              width="163"
-              height="154"
+              class="sign-up-img-left"
+              srcset="/team-project-1/assets/isabella_mendes@1x-a9962610.png 1x, /team-project-1/assets/isabella_mendes@2x-fbde915c.png 2x"
+              loading="lazy"
             />
           </picture>
         </div>
@@ -527,21 +560,18 @@
             <source
               media="(min-width: 1440px)"
               srcset="/team-project-1/assets/video_entry@1x-f53a9bdb.png 1x, /team-project-1/assets/video_entry@2x-2c3422b2.png 2x"
-              width="254"
-              type="image/jpg"
+              type="image/png"
             />
             <source
               media="(min-width: 1280px)"
               srcset="/team-project-1/assets/video_entry@1x-f53a9bdb.png 1x, /team-project-1/assets/video_entry@2x-2c3422b2.png 2x"
-              width="240"
-              type="image/jpg"
+              type="image/png"
             />
             <img
               class="sign-up-img-right"
               src="/team-project-1/assets/video_entry@1x-f53a9bdb.png"
               alt="Camera"
-              width="254"
-              height="313"
+              loading="lazy"
             />
           </picture>
         </div>

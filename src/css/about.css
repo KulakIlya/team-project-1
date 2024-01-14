@@ -1,34 +1,7 @@
-.about-us {
-  max-width: 335px;
-  margin: 0 auto;
-  padding: 0 0 80px;
-}
-
-@media only screen and (min-width: 768px) {
-  .about-us {
-    max-width: 704px;
-    padding: 0 0 100px;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .about-us {
-    max-width: 1080px;
-    padding: 0 0 150px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .about-us {
-    max-width: 1240px;
-  }
-}
-
 .about-header {
-  font-family: DM Sans;
   font-size: 28px;
   font-weight: 500;
-  line-height: 1.14em;
+  line-height: 0.875;
   letter-spacing: -1.12px;
   margin-bottom: 40px;
 }
@@ -39,7 +12,7 @@
 @media only screen and (min-width: 768px) {
   .about-header {
     font-size: 48px;
-    line-height: 1.12em;
+    line-height: 0.888;
     letter-spacing: -1.92px;
     margin-bottom: 50px;
   }
@@ -59,8 +32,6 @@
 @media only screen and (min-width: 1280px) {
   .about-photo {
     margin: 0;
-    /*width: 488px;
-    height: 260px;*/
   }
 }
 .about-p {
@@ -73,7 +44,7 @@
 .about-text {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.28em;
+  line-height: 0.777;
   letter-spacing: -0.28px;
   width: 100%;
 }
@@ -81,7 +52,7 @@
 @media only screen and (min-width: 768px) {
   .about-text {
     font-size: 16px;
-    line-height: 1.25em;
+    line-height: 0.8;
     letter-spacing: -0.32px;
   }
 }

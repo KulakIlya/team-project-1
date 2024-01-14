@@ -1,0 +1,83 @@
+.about-header {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -1.12px;
+  margin-bottom: 40px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .about-header {
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -1.92px;
+    margin-bottom: 50px;
+  }
+}
+
+.about-photo {
+  flex-shrink: 0;
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-photo {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-photo {
+    margin: 0;
+  }
+}
+.about-p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.28px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about-p {
+    gap: 40px;
+    padding-right: 104px;
+  }
+  .about-text {
+    width: calc((100% - 40px) / 2);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-p {
+    gap: 20px;
+    padding: 0;
+  }
+  .about-text {
+    width: calc((100% - 20px) / 2);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-desk {
+    display: flex;
+    gap: 40px;
+  }
+}

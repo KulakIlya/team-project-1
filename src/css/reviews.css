@@ -1,7 +1,6 @@
 /* Reviews styles */
 
-.container {
-  padding-bottom: 80px;
+.reviews-section {
 }
 
 @media screen and (min-width: 768px) {
@@ -9,7 +8,6 @@
     font-size: 48px;
     line-height: 1.12;
     letter-spacing: -1.92px;
-    margin-left: -32px;
   }
 }
 

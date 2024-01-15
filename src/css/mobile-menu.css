@@ -1,10 +1,14 @@
+.cell {
+  position: relative;
+}
+
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 999;
 
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 
   opacity: 1;
@@ -24,7 +28,7 @@
   display: flex;
   background-color: var(--brown, #bea69e);
   flex-direction: column;
-  max-width: 58vw;
+  max-width: 58%;
   height: 100vh;
 
   position: fixed;
@@ -42,7 +46,7 @@
 
 @media only screen and (min-width: 768px) {
   .mobile-menu {
-    max-width: 62vw;
+    max-width: 62%;
     height: 100vh;
   }
 }
@@ -100,9 +104,11 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+
+  transition: font-weight 100ms ease-in-out;
 }
 
-.mm-item .is-active {
+.mm-item:hover {
   font-weight: 700;
 }
 .mm-item-link {

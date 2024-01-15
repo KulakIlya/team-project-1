@@ -107,27 +107,9 @@
 
   color: var(--brown, #bea69e);
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.55;
   text-transform: uppercase;
-}
-
-@media only screen and (min-width: 768px) {
-  .link-button:hover {
-    padding: 16px 58px;
-    width: 186px;
-    height: 60px;
-    margin-left: 14px;
-  }
-}
-@media only screen and (min-width: 1280px) {
-  .link-button:hover {
-    padding: 16px 84px;
-    margin-left: 20px;
-    width: 238px;
-    height: 60px;
-  }
 }
 
 .burger-btn {

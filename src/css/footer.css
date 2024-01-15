@@ -1,11 +1,13 @@
 .footer-class .cell {
   padding-top: 40px;
+  padding-bottom: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 @media screen and (min-width: 768px) {
   .footer-class .cell {
     padding-top: 50px;
+    padding-bottom: 25px;
   }
 }
 

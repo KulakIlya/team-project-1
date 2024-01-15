@@ -5,7 +5,7 @@
 
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: -1.12px;
+
   margin-bottom: 40px;
 }
 
@@ -13,7 +13,7 @@
   .header-mentors {
     font-size: 48px;
     line-height: 0.89;
-    letter-spacing: -1.92px;
+
     margin-bottom: 50px;
   }
 }
@@ -79,13 +79,11 @@
 
   font-size: 12px;
   line-height: 1.33;
-  letter-spacing: -0.24px;
 }
 
 @media only screen and (min-width: 768px) {
   .experience-mentors {
     font-size: 14px;
     line-height: 1.28;
-    letter-spacing: -0.28px;
   }
 }

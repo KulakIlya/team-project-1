@@ -4,7 +4,6 @@
   .reviews-section .reviews {
     font-size: 48px;
     line-height: 1.12;
-    letter-spacing: -1.92px;
   }
 }
 
@@ -68,7 +67,7 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 1.33;
-  letter-spacing: -0.24px;
+
   margin-top: 4px;
 }
 
@@ -76,7 +75,6 @@
   .person-occupancy {
     font-size: 14px;
     line-height: 1.29;
-    letter-spacing: -0.28px;
   }
 }
 
@@ -116,6 +114,5 @@
   .review-text {
     font-size: 16px;
     line-height: 1.25;
-    letter-spacing: -0.32px;
   }
 }

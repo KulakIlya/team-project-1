@@ -496,17 +496,35 @@
 
       <form class="sign-up-form">
         <div class="sign-up-entry-field">
-          <input class="sign-up-input" name="user-name" id="user-name" type="text" placeholder="Enter your name"
-            required />
+          <input
+            class="sign-up-input"
+            name="user-name"
+            id="user-name"
+            type="text"
+            placeholder="Enter your name"
+            pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+            required
+          />
         </div>
 
         <div class="sign-up-entry-field">
-          <input class="sign-up-input" name="user-email" id="user-email" type="email" placeholder="Enter your email"
-            required />
+          <input
+            class="sign-up-input"
+            name="user-email"
+            id="user-email"
+            type="email"
+            placeholder="Enter your email"
+            pattern="[a-zA-Z0-9._%±]+@ [a-zA-Z0-9.-]+\. [a-zA-Z0-9_-]+"
+            required
+          />
         </div>
         <div class="sign-up-entry-field">
-          <textarea class="sign-up-input sign-up-textarea" name="user-message" id="user-message"
-            placeholder="Message"></textarea>
+          <textarea
+            class="sign-up-input sign-up-textarea"
+            name="user-message"
+            id="user-message"
+            placeholder="Message"
+          ></textarea>
         </div>
         <button class="sign-up-btn" type="submit">Send</button>
         <p class="sign-up-text-down">
@@ -520,29 +538,67 @@
 
     <div class="sign-up-right-side">
       <div class="sign-up-wrapper">
-        <div class="sign-up-img-left-box" data-aos="zoom-in-right" data-aos-delay="50" data-aos-offset="200"
-          data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
+        <div
+          class="sign-up-img-left-box"
+          data-aos="zoom-in-right"
+          data-aos-delay="50"
+          data-aos-offset="200"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <picture>
-            <source media="(min-width: 1280px)" srcset="/team-project-1/assets/isabella_mendes@1x-923d229f.webp 1x, /team-project-1/assets/isabella_mendes@2x-e813d167.webp 2x" type="image/webp" />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/team-project-1/assets/isabella_mendes@1x-923d229f.webp 1x, /team-project-1/assets/isabella_mendes@2x-e813d167.webp 2x"
+              type="image/webp"
+            />
 
-            <img src="/team-project-1/assets/isabella_mendes@1x-923d229f.webp" class="sign-up-img-left" srcset="/team-project-1/assets/isabella_mendes@1x-923d229f.webp 1x, /team-project-1/assets/isabella_mendes@2x-e813d167.webp 2x" loading="lazy" alt="Camera" />
+            <img
+              src="/team-project-1/assets/isabella_mendes@1x-923d229f.webp"
+              class="sign-up-img-left"
+              srcset="/team-project-1/assets/isabella_mendes@1x-923d229f.webp 1x, /team-project-1/assets/isabella_mendes@2x-e813d167.webp 2x"
+              loading="lazy"
+              alt="Camera"
+            />
           </picture>
         </div>
       </div>
 
       <div class="sign-up-wrapper">
-        <div class="sign-up-img-right-box" data-aos="zoom-in-left" data-aos-delay="50" data-aos-offset="200"
-          data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="true">
+        <div
+          class="sign-up-img-right-box"
+          data-aos="zoom-in-left"
+          data-aos-delay="50"
+          data-aos-offset="200"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+        >
           <picture>
-            <source media="(min-width: 1440px)" srcset="/team-project-1/assets/video_entry@1x-47b05d69.webp 1x, /team-project-1/assets/video_entry@2x-9eab34cd.webp 2x" type="image/webp" />
-            <source media="(min-width: 1280px)" srcset="/team-project-1/assets/video_entry@1x-47b05d69.webp 1x, /team-project-1/assets/video_entry@2x-9eab34cd.webp 2x" type="image/webp" />
-            <img class="sign-up-img-right" src="/team-project-1/assets/video_entry@1x-47b05d69.webp" alt="Camera" loading="lazy" />
+            <source
+              media="(min-width: 1440px)"
+              srcset="/team-project-1/assets/video_entry@1x-47b05d69.webp 1x, /team-project-1/assets/video_entry@2x-9eab34cd.webp 2x"
+              type="image/webp"
+            />
+            <source
+              media="(min-width: 1280px)"
+              srcset="/team-project-1/assets/video_entry@1x-47b05d69.webp 1x, /team-project-1/assets/video_entry@2x-9eab34cd.webp 2x"
+              type="image/webp"
+            />
+            <img
+              class="sign-up-img-right"
+              src="/team-project-1/assets/video_entry@1x-47b05d69.webp"
+              alt="Camera"
+              loading="lazy"
+            />
           </picture>
         </div>
       </div>
     </div>
   </div>
 </section>
+
   <section class="reviews-section" id="reviews-section">
   <div class="container">
     <h2 class="reviews">Reviews</h2>
@@ -775,7 +831,9 @@
                 class="subscribe-input"
                 type="email"
                 name="e-mail"
+                pattern="[a-zA-Z0-9._%±]+@ [a-zA-Z0-9.-]+\. [a-zA-Z0-9_-]+"
                 placeholder="Enter your email"
+                required
               />
             </label>
             <button class="subscribe-btn" type="submit">Go</button>

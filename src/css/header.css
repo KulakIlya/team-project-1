@@ -72,7 +72,7 @@
   .link-button {
     display: block;
     margin-left: 14px;
-    padding: 16px 58px;
+    padding: 16px 57px;
 
     border-radius: 12px;
     background: #fff;
@@ -92,7 +92,7 @@
 }
 @media only screen and (min-width: 1280px) {
   .link-button {
-    padding: 16px 84px;
+    padding: 16px 83px;
     margin-left: 20px;
     min-width: 238px;
     height: 60px;

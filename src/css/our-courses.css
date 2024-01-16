@@ -126,12 +126,6 @@
   color: #ffffff;
 }
 
-.sing-up-link:hover use,
-.sing-up-link:active use,
-.sing-up-link:focus use {
-  /* fill: #ffffff; */
-}
-
 .number {
   color: rgba(255, 255, 255, 0.4);
 }

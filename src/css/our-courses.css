@@ -114,25 +114,22 @@
   height: 32px;
   border-radius: 50%;
 
-  transition: background-color 250ms ease-in-out;
-}
+  color: #777777;
 
-.sing-up-link use {
-  opacity: 0.4;
-
-  transition: opacity 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
 }
 
 .sing-up-link:hover,
 .sing-up-link:active,
 .sing-up-link:focus {
   background-color: #bea69e;
+  color: #ffffff;
 }
 
 .sing-up-link:hover use,
 .sing-up-link:active use,
 .sing-up-link:focus use {
-  opacity: 1;
+  /* fill: #ffffff; */
 }
 
 .number {
